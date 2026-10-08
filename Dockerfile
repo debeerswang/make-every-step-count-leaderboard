@@ -1,7 +1,8 @@
 FROM busybox:1.37-musl
 
 COPY index.html /www/index.html
-COPY personify_leaderboard.csv /www/personify_leaderboard.csv
+COPY dataset_1008/personify_leaderboard.csv /www/personify_leaderboard.csv
+COPY dataset_1008/ /www/dataset_1008/
 
 EXPOSE 80
 
