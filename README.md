@@ -6,6 +6,8 @@ Interactive dashboard for the Global Wellness Challenge leaderboard using the Oc
 - `index.html` - Desktop dashboard with charts, team selection, search, and sorting; fetches the active CSV at runtime
 - `dataset_1008/personify_leaderboard.csv` - Active raw data source for all 6,463 teams
 - `dataset_1008/personify_leaderboard_all_teams.xlsx` - Formatted workbook for the same snapshot
+- `dataset_1005/personify_leaderboard.csv` - Archived October 5 snapshot
+- `dataset_1005/personify_leaderboard_all_teams.xlsx` - Formatted workbook for the October 5 snapshot
 - `Dockerfile` - Minimal BusyBox static web server image
 - `.dockerignore` - Small build context for the container image
 
